@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サンプルレイアウト</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <div class="flex min-h-screen">
+    <!-- サイドバー -->
+    <div class="w-64 bg-blue-500 text-white p-4">
+      <h2 class="text-xl font-bold mb-4">メニュー</h2>
+      <ul class="space-y-2">
+        <li class="hover:bg-blue-600 p-2 rounded">ホーム</li>
+        <li class="hover:bg-blue-600 p-2 rounded">ブログ</li>
+        <li class="block hover:bg-blue-600 p-2 rounded">お問い合わせ</li>
+      </ul>
+    </div>
+
+    <!-- メインコンテンツ -->
+    <main class="flex-1 p-4">
+      <h1 class="text-2xl font-bold mb-4">ようこそ</h1>
+      <p class="mb-4">TailwindCSSのレイアウトのデモです。</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-white p-4 rounded shadow">
+          <h3 class="font-bold mb-2">セクション1</h3>
+          <p>ここにコンテンツが入ります。</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <h3 class="font-bold mb-2">セクション2</h3>
+          <p>ここにコンテンツが入ります。</p>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
